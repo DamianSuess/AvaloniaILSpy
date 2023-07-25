@@ -78,7 +78,6 @@ namespace ICSharpCode.ILSpy.Search
 			    new { Image = Images.Library, Name = "Metadata Token" }
             };
 
-
 			ContextMenuProvider.Add(listBox);
 			MainWindow.Instance.CurrentAssemblyListChanged += MainWindow_Instance_CurrentAssemblyListChanged;
 			MainWindow.Instance.SessionSettings.FilterSettings.PropertyChanged += FilterSettings_PropertyChanged;
